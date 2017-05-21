@@ -11,9 +11,9 @@
     "authors": [
         {
             "name": ":Stephen Munabo",
-            "email": ":stephen.munabo@gmail.com",
-            "homepage": ":stephenmunabo.com",
-            "role": "Developer"
+            "email": "stephen.munabo@gmail.com",
+            "homepage": ":http://stephenmunabo.com",
+            "role": "Php Developer"
         }
     ],
     "require": {
