@@ -30,7 +30,7 @@ vendor/
 Via Composer
 
 ``` bash
-$ composer require smunabo/ExitPoppable
+$ composer require smunabo/exitPoppable
 ```
 
 ## Usage

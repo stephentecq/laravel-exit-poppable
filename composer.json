@@ -4,7 +4,8 @@
     "description": ":An exit popup library that goes hard in the paint!",
     "keywords": [
         "smunabo",
-        "exitPoppable"
+        "exitPoppable",
+        "laravel exit Popup"
     ],
     "license": "MIT",
     "authors": [
