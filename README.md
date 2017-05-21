@@ -36,9 +36,11 @@ $ composer require :vendor/:package_name
 ## Usage
 
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+    $data = ExitPoppable::make('Welcome to Poppables Exit popup', 'Please don\'t leave the site we have more to show you', 1);
+    return view('exitPoppable::poppable', compact('data'));
 ```
+
+    @include('pops.popMain')
 
 ## Change log
 
@@ -47,7 +49,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 ## Testing
 
 ``` bash
-$ composer test
+$ composer install
 ```
 
 ## Contributing
@@ -60,7 +62,7 @@ If you discover any security related issues, please email :author_email instead 
 
 ## Credits
 
-- [:author_name][link-author]
+- [:Stephen Munabo][stephenmunabo.com]
 - [All Contributors][link-contributors]
 
 ## License
