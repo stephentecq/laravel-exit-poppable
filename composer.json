@@ -1,7 +1,7 @@
 {
     "name": "smunabo/exit-poppable",
     "type": "library",
-    "description": ":An exit popup library that goes hard in the paint!",
+    "description": "An exit popup library for your laravel site!",
     "keywords": [
         "smunabo",
         "exitPoppable",
