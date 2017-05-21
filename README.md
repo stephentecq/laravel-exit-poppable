@@ -1,4 +1,4 @@
-# :package_name
+# ExitPoppable
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```:author_name``` ```:author_username``` ```:author_website``` ```:author_email``` ```:vendor``` ```:package_name``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
+**Note:** Replace ```Stephen Munabo``` ```stephenx99``` ```stephenmunabo.com``` ```stephen.munabo@gmail.com``` ```smunabo``` ```ExitPoppable``` ```A simple to use laravel package for adding exit popups to your laravel site.``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
 PSRs you support to avoid any confusion with users and contributors.
@@ -17,7 +17,7 @@ PSRs you support to avoid any confusion with users and contributors.
 If any of the following are applicable to your project, then the directory structure should follow industry best practises by being named the following.
 
 ```
-bin/        
+bin/
 config/
 src/
 tests/
@@ -30,17 +30,15 @@ vendor/
 Via Composer
 
 ``` bash
-$ composer require :vendor/:package_name
+$ composer require smunabo/ExitPoppable
 ```
 
 ## Usage
 
 ``` php
-    $data = ExitPoppable::make('Welcome to Poppables Exit popup', 'Please don\'t leave the site we have more to show you', 1);
-    return view('exitPoppable::poppable', compact('data'));
+$skeleton = new smunabo\ExitPoppable();
+echo $skeleton->echoPhrase('Hello, League!');
 ```
-
-    @include('pops.popMain')
 
 ## Change log
 
@@ -49,7 +47,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 ## Testing
 
 ``` bash
-$ composer install
+$ composer test
 ```
 
 ## Contributing
@@ -58,28 +56,28 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 
 ## Security
 
-If you discover any security related issues, please email :author_email instead of using the issue tracker.
+If you discover any security related issues, please email stephen.munabo@gmail.com instead of using the issue tracker.
 
 ## Credits
 
-- [:Stephen Munabo][stephenmunabo.com]
+- [Stephen Munabo][link-author]
 - [All Contributors][link-contributors]
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/:vendor/:package_name.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/smunabo/ExitPoppable.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/:vendor/:package_name/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/:vendor/:package_name.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/:vendor/:package_name.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/:vendor/:package_name.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/smunabo/ExitPoppable/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/smunabo/ExitPoppable.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/smunabo/ExitPoppable.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/smunabo/ExitPoppable.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/:vendor/:package_name
-[link-travis]: https://travis-ci.org/:vendor/:package_name
-[link-scrutinizer]: https://scrutinizer-ci.com/g/:vendor/:package_name/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/:vendor/:package_name
-[link-downloads]: https://packagist.org/packages/:vendor/:package_name
-[link-author]: https://github.com/:author_username
+[link-packagist]: https://packagist.org/packages/smunabo/ExitPoppable
+[link-travis]: https://travis-ci.org/smunabo/ExitPoppable
+[link-scrutinizer]: https://scrutinizer-ci.com/g/smunabo/ExitPoppable/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/smunabo/ExitPoppable
+[link-downloads]: https://packagist.org/packages/smunabo/ExitPoppable
+[link-author]: https://github.com/stephenx99
 [link-contributors]: ../../contributors
