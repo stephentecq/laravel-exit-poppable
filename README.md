@@ -12,6 +12,8 @@ $ composer require smunabo/exit-poppable
 
 ## Usage
 
+Add the service provider to config/app.php (app/config/app.php in Laravel 4), within the providers array.
+
 ``` Add the service provider to config/app.php (app/config/app.php in Laravel 4), within the providers array.
 
 'providers' => array(
@@ -23,6 +25,8 @@ $ composer require smunabo/exit-poppable
 
 ```
 
+Then add an alias to config/app.php (app/config/app.php), within the aliases array.
+
 ``` Then add an alias to config/app.php (app/config/app.php), within the aliases array.
 
 aliases' => [
@@ -33,6 +37,8 @@ aliases' => [
 
 
 ```
+
+Finally Publish the package configuration by running this CMD
 
 ``` Finally Publish the package configuration by running this CMD
 
